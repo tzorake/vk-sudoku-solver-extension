@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "VK Sudoku Solver",
+    "description": "Easily solves any sudoku in the moment.",
+    "version": "1.0.0",
+    "icons": {
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://vk.com/app51461148*"],
+        "js": ["content-script.js"]
+      }
+    ],
+    "permissions": ["scripting", "activeTab", "tabs"]
+  }

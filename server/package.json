@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "serve": "node --watch main.js"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "@sanschristo/sudoku-solver": "^0.0.6",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2"
+  }
+}
